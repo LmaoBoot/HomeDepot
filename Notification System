@@ -7,8 +7,8 @@
  */
 
 /**
-* Version 4.6
-* Notes: Fixed constant beeping when no orders
+* Version 5.0
+* Notes: Fixed constant beeping when no orders & general improvements
 * Date: 09-02-2024
 * Author: Jaden Breaker
 */
@@ -78,7 +78,7 @@ setInterval(async function() {
 
 console.clear();
 
-console.log("🔔 Curbside Notifier Version 4.6 Running");
+console.log("🔔 Curbside Notifier Version 5.0 Running");
 
 if (window.location.href !== "https://ofa.storeapps.homedepot.ca/curbside/unassigned" && window.location.href !== "https://ofa.storeapps.homedepot.ca/curbside/assigned") {
 	console.log("Open the curbside page.");
